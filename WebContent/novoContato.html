@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Inserir novos Usuarios</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<body>
+	<h1>Criar novo Usuário</h1>
+	<form name="formContato" action="insercao">
+		<table class="table table-striped">
+			<tr>
+				<td scope="col"><input class="form-control" type="text" name="nome" id="nome" placeholder="Nome"></td>
+			</tr>
+			<tr>
+				<td scope="col"><input class="form-control" type="text" name="fone" id="telefone" placeholder="Telefone"></td>
+			</tr>
+		</table>
+		<button style="margin-left: 10px;" class="btn btn-primary" type="button" value="Adicionar" onclick="validar()">Adicionar</button>
+	</form>
+<script src="scripts/validador.js"></script>
+</body>
+</html>
